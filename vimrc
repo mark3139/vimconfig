@@ -1161,6 +1161,8 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/](\.git|\.hg|\.svn)$',
   \ 'file': '\.pyc$\|\.pyo$',
   \ }
+let g:HammerQuiet = 1
+let g:yankring_zap_keys = 'f F / ?'
 
 " 执行python单脚本
 au FileType python map <C-j> :!clear && python %<CR>

@@ -1,6 +1,8 @@
 vim/viminfo
 viminfo
 .*.sw?
+*.sh
+*.pyc
 *.zip
 *.tar.gz
 vimrc-local*
