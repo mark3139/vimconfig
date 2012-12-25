@@ -370,7 +370,7 @@ function! s:DefineVariables()
                 \ 'AutoCloseSmartQuote': 1,
                 \ 'AutoCloseOn': 1,
                 \ 'AutoCloseSelectionWrapPrefix': '<LEADER>a',
-                \ 'AutoClosePumvisible': {"ENTER": "\<C-Y>", "ESC": "\<C-E>"},
+                \ 'AutoClosePumvisible': {"ENTER": "\<C-Y>", "ESC": "\<ESC>"},
                 \ 'AutoCloseExpandEnterOn': "",
                 \ 'AutoCloseExpandSpace': 1,
                 \ }

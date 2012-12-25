@@ -1170,4 +1170,3 @@ au FileType python map <C-j> :!clear && python %<CR>
 " vim:set ts=4:
 " vim600:fdm=marker fdl=0 fdc=3
 " }}}
-
