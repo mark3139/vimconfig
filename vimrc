@@ -1164,6 +1164,9 @@ let g:yankring_zap_keys = 'f F / ?'
 
 " 执行python单脚本
 au FileType python map <C-j> :!clear && python %<CR>
+
+" pymode
+let g:pymode_lint_checker = "pyflakes,pep8,mccabe"
 "}}}
 
 " Modeline {{{
