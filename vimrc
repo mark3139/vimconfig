@@ -1167,6 +1167,7 @@ au FileType python map <C-j> :!clear && python %<CR>
 
 " pymode
 let g:pymode_lint_checker = "pyflakes,pep8,mccabe"
+let g:pymode_rope = 1
 "}}}
 
 " Modeline {{{
