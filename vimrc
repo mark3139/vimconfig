@@ -1059,10 +1059,10 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 " old autocomplete keyboard shortcut
 imap <C-J> <C-X><C-O>
 "{{{ " colors and settings of autocompletition
-highlight Pmenu ctermbg=4 guibg=LightGray
-" highlight PmenuSel ctermbg=8 guibg=DarkBlue guifg=Red
-" highlight PmenuSbar ctermbg=7 guibg=DarkGray
-" highlight PmenuThumb guibg=Black
+highlight Pmenu ctermbg=6 guibg=Blue
+highlight PmenuSel ctermbg=7 guibg=DarkBlue guifg=Red
+"highlight PmenuSbar ctermbg=7 guifg=White guibg=#001020  
+ highlight PmenuThumb guibg=Black  
 " use global scope search
 let OmniCpp_GlobalScopeSearch = 1
 " 0 = namespaces disabled
@@ -1174,3 +1174,5 @@ let g:pymode_rope = 1
 " vim:set ts=4:
 " vim600:fdm=marker fdl=0 fdc=3
 " }}}
+" vimim
+let g:vimim_map='c-bslash'
